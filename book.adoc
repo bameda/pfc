@@ -1,0 +1,18 @@
+= Taiga
+David Barragán Merino <bameda@dbarragan.com>
+v0.1.0, 2017-02-12
+:doctype: book
+:toc: left
+:source-highlighter: coderay
+:imagesdir: images
+:front-cover-image: image:cover.png[Front Cover,1050,1600]
+
+
+include::chapters/1_introduction/main.adoc[]
+include::chapters/2_state_of_the_matter/main.adoc[]
+include::chapters/3_tools/main.adoc[]
+include::chapters/4_project_development/main.adoc[]
+include::chapters/5_conclusions/main.adoc[]
+include::chapters/6_future_lines/main.adoc[]
+
+include::chapters/references.adoc[]

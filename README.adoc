@@ -1,0 +1,60 @@
+== PFC
+
+=== Setup
+
+Download this repo:
+
+[source,console]
+----
+$ git clone https://github.com/bameda/pfc.git bameda-pfc
+$ cd bameda-pfc
+----
+
+
+Install dependencies
+
+[source,console]
+----
+$ yaourt -S ruby ruby-bundler
+----
+
+
+Install gems:
+
+[source,console]
+----
+$ bundle install
+----
+
+Download fonts for PDF generate (run once):
+
+[source,console]
+----
+$ asciidoctor-pdf-cjk-kai_gen_gothic-install
+----
+
+Build books:
+
+[source,console]
+----
+$ rake build
+----
+
+Result will be store in `build` dir:
+
+[source,console]
+----
+$ tree build
+build/
+`-- book
+    |-- book-0.1.0
+    |   |-- images
+    |   |   |-- cover.png
+    |   |   `-- cover.svg
+    |   `-- index.html
+    |-- book-0.1.0.epub
+    |-- book-0.1.0-kf8.epub
+    |-- book-0.1.0.mobi
+    |-- book-0.1.0.pdf
+    `-- book-0.1.0.pdfmarks
+----
