@@ -36,3 +36,4 @@ include::chapters/6_future_lines/main.adoc[]
 
 :numbered!:
 include::chapters/references.adoc[]
+include::chapters/glossary.adoc[]
