@@ -3,6 +3,7 @@ David Barragán Merino <bameda@dbarragan.com>
 v0.1.0, 2017-02-12
 :doctype: book
 :toc: left
+:toclevels: 4
 :source-highlighter: coderay
 :imagesdir: images
 :front-cover-image: image:cover.png[Front Cover,1050,1600]
