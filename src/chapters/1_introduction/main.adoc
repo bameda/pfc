@@ -1,0 +1,6 @@
+== Introducción
+
+include::1_motivation.adoc[]
+include::2_principles.adoc[]
+include::3_general_and_specific_objectives.adoc[]
+include::4_project_structure.adoc[]
