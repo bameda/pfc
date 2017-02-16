@@ -1,0 +1,6 @@
+== Estado de la cuestión
+
+include::1_agile.adoc[]
+include::2_web_apps.adoc[]
+include::3_saas.adoc[]
+include::4_project_manager_software.adoc[]
