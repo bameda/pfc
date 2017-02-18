@@ -1,0 +1,6 @@
+== Desarrollo del proyecto
+
+include::1_version_1_rant.adoc[]
+include::2_version_2_piweek.adoc[]
+include::3_version_3_taiga_agile_llc.adoc[]
+include::4_postproduction.adoc[]
